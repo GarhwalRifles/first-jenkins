@@ -1,0 +1,13 @@
+package com.RawatKafka.kafkatest;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class KafkaTestSamplesApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(KafkaTestSamplesApplication.class, args);
+	}
+
+}
